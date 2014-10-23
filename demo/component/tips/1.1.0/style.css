@@ -1,0 +1,9 @@
+.tips h3 {
+    color: red;
+}
+
+.tips p {
+    font-size: 14px;
+    background-color: #fafafa;
+    line-height: 50px;
+}

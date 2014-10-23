@@ -1,0 +1,39 @@
+{
+  "name": "gulp-easy-ui-component",
+  "version": "0.1.1",
+  "description": "Let's easy create UI Component.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maplejan/gulp-easy-ui-component.git"
+  },
+  "keywords": [
+    "gulp",
+    "plugin",
+    "ui",
+    "component"
+  ],
+  "author": {
+    "name": "Maple Jan",
+    "email": "jiancm2001@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maplejan/gulp-easy-ui-component/issues"
+  },
+  "homepage": "https://github.com/maplejan/gulp-easy-ui-component",
+  "dependencies": {
+    "clean-css": "^2.2.16",
+    "gulp-util": "^3.0.0",
+    "html-minifier": "^0.6.9",
+    "npm": "^2.1.4",
+    "through": "^2.3.6"
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "gulp-easy-ui-component@0.1.0",
+  "_shasum": "e4ed09c7c70dd6ed735f8a74549a7dadc68bcd57",
+  "_from": "gulp-easy-ui-component@"
+}
