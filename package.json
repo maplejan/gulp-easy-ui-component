@@ -1,6 +1,6 @@
 {
   "name": "gulp-easy-ui-component",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Let's easy create UI Component.",
   "main": "index.js",
   "scripts": {

@@ -4,7 +4,7 @@ var htmlMinify = require('html-minifier');
 var cleanCSS = new (require('clean-css'))();
 var through = require('through');
 
-function gulpEasyUiComponent(file, opt) {
+function gulpEasyUIComponent(file, opt) {
     var fileBuffer = null;
     var htmlFileData = '';
     var cssFileData = '';
@@ -53,4 +53,4 @@ function gulpEasyUiComponent(file, opt) {
     return through(initComponent, endStream);
 }
 
-module.exports = gulpEasyUiComponent;
+module.exports = gulpEasyUIComponent;

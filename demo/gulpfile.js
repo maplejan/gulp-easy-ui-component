@@ -1,7 +1,7 @@
 var fs = require('fs');
 var gulp = require('gulp');
 var rename = require('gulp-rename');
-var easyUiComponent = require('gulp-easy-ui-component');
+var easyUIComponent = require('gulp-easy-ui-component');
 
 function eachComponents(callback) {
     var path = 'component/';
@@ -44,7 +44,7 @@ function initComponent(opt) {
     var fileArr = opt.fileArr;
 
     gulp.src(fileArr)
-        .pipe(easyUiComponent())
+        .pipe(easyUIComponent())
         .pipe(rename(cName + '.js'))
         .pipe(gulp.dest(cVersionPath));
 }
